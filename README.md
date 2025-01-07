@@ -17,7 +17,7 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/yourusername/pdf-table-extraction.git
    cd pdf-table-extraction
-Create a Virtual Environment (Optional but Recommended):
+🐍 Create a Virtual Environment (Optional but Recommended):
 
 bash
 Copy code
@@ -32,7 +32,7 @@ macOS/Linux:
 bash
 Copy code
 source venv/bin/activate
-Install Dependencies:
+📦 Install Dependencies:
 
 bash
 Copy code
@@ -45,13 +45,17 @@ Copy code
 streamlit run app.py
 Once the application starts, follow these steps:
 
-📂 Upload Your PDF: Navigate to the sidebar and use the file uploader to select your PDF document.
+📂 Upload Your PDF:
+Navigate to the sidebar and use the file uploader to select your PDF document.
 
-🔍 Preview the PDF: After uploading, the application will display a preview of your PDF.
+🔍 Preview the PDF:
+After uploading, the application will display a preview of your PDF.
 
-📑 Extract Tables: The app will automatically extract tables from the PDF. View them in expandable sections.
+📑 Extract Tables:
+The app will automatically extract tables from the PDF. View them in expandable sections.
 
-📝 Summarize Tables: Generate and view summaries for each extracted table.
+📝 Summarize Tables:
+Generate and view summaries for each extracted table.
 
 📁 Project Structure
 bash
@@ -65,6 +69,10 @@ pdf-table-extraction/
 ├── README.md            # Project overview and instructions
 └── assets/              # (Optional) Folder for additional icons or images
     └── icons/           # Folder for storing icon files
+
+
+
+    
 🧰 Dependencies
 The project relies on the following key libraries:
 
@@ -89,13 +97,15 @@ Copy code
 git checkout -b feature/YourFeature
 Commit Your Changes:
 bash
-Copy code
 git commit -m "Add your message here"
 Push to the Branch:
 bash
-Copy code
+
 git push origin feature/YourFeature
 Open a Pull Request
+
+
+
 📝 License
 This project is licensed under the MIT License.
 
